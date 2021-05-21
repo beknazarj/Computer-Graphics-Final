@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="LPbackground" prefHeight="468.0" prefWidth="643.0" styleClass="LPbackground" stylesheets="@LPcss.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaproject.LandingPageController">
+   <children>
+      <AnchorPane fx:id="subpane" layoutX="35.0" layoutY="48.0" prefHeight="371.0" prefWidth="578.0" styleClass="subpane">
+         <children>
+            <JFXButton fx:id="quickTestButton" layoutX="210.0" layoutY="195.0" onAction="#goToTest" prefHeight="47.0" prefWidth="158.0" text="Quick Test" textFill="WHITE" />
+            <Label layoutX="182.0" layoutY="92.0" prefHeight="103.0" prefWidth="234.0" text="Fast Faper" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="47.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
